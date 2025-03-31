@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "emergency_response": "./main.py:compiled_app"
+    },
+    "env": ".env"
+  }
