@@ -11,6 +11,4 @@ if not GOOGLE_API_KEY:
 
 # Context management configuration
 CONTEXT_DATA_DIR = "./context_data/"
-
-# Ensure directories exist
 os.makedirs(CONTEXT_DATA_DIR, exist_ok=True)

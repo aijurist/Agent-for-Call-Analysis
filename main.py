@@ -12,7 +12,8 @@ from tools import ContextManagementTool
 from agents import EmotionAnalyzerAgent, SituationAnalyzerAgent
 from config import CONTEXT_DATA_DIR
 
-# Define the state for our graph using Pydantic
+# state definition for graph using pydantic
+# This is the state that will be passed between nodes in the graph
 class GraphState(BaseModel):
     messages: List[HumanMessage] = Field(default_factory=list)
     context: Dict[str, Any] = Field(default_factory=dict)
@@ -158,7 +159,7 @@ def create_graph() -> StateGraph:
     
     return graph
 
-# Initialize agents and compile the graph at the module level
+# Initialize agents and context tool and compile the graph
 emotion_analyzer, situation_analyzer, context_tool = initialize_agents()
 compiled_app = create_graph().compile()
 

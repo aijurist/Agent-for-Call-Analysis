@@ -51,19 +51,19 @@ class EmotionAnalyzerAgent:
             HumanMessage(content=human_prompt)
         ]
         
-        # Create output parser
+        #output parser
         parser = PydanticOutputParser(pydantic_object=EmotionAnalysisOutput)
         format_instructions = parser.get_format_instructions()
         
-        # Add format instructions to the prompt
+        #adding format instructions to the messages
         messages.append(HumanMessage(content=f"Format your response according to these instructions: {format_instructions}"))
         
-        # Get response from the model
+        #model response will be returned as json 
         response = model.invoke(messages)
         # print(response)
         
-        # Parse the response
         try:
+            #parse converts the returned data structure to a pydantic structure 
             emotion_analysis = parser.parse(response.content)
             
             # Add to context management

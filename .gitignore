@@ -2,3 +2,4 @@ context_data/
 **/__pycache__/**
 .env
 .langgraph_api/
+.venv/
