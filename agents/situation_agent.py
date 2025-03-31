@@ -68,16 +68,11 @@ class SituationAnalyzerAgent:
             HumanMessage(content=human_prompt)
         ]
         
-        #output parser
-        # This parser will convert the model's response into a structured format
         parser = PydanticOutputParser(pydantic_object=SituationAnalysisOutput)
         format_instructions = parser.get_format_instructions()
         
         #format instructions from human message
-        # This is important as the model will be instructed to follow this format in its response
         messages.append(HumanMessage(content=f"Format your response according to these instructions: {format_instructions}"))
-        
-        #model output will be given as json
         response = model.invoke(messages)
         
         try:
