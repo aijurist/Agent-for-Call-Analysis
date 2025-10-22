@@ -1,0 +1,43 @@
+[
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "neutral",
+      "secondary_emotion": null,
+      "intensity": "medium",
+      "confidence_score": 0.5,
+      "reasoning": "Failed to parse model response: Failed to parse EmotionAnalysisOutput from completion {\"primary_emotion\": \"panic\", \"secondary_emotion\": \"fear\", \"intensity\": \"extreme\", \"confidence_score\": 0.95, \"reasoning\": \"The message \\\"helpppp\\\" indicates extreme panic and fear due to the elongated and repeated plea for help. This suggests a high level of distress and urgency.\", \"timestamp\": null}. Got: 1 validation error for EmotionAnalysisOutput\ntimestamp\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE ",
+      "lexicon_scores": null,
+      "audio_analysis": null,
+      "temporal_trend": null,
+      "cross_modal_result": null
+    },
+    "timestamp": "2025-04-01T05:21:43.129122"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "undetermined",
+      "severity_level": "high",
+      "key_details": [
+        "Distress signal received",
+        "Message contains urgent plea for help ('helpppp')"
+      ],
+      "required_actions": [
+        "Attempt to establish two-way communication with the sender to ascertain the nature of the emergency and location.",
+        "Dispatch emergency services to the sender's last known location if communication cannot be established or if the situation sounds critical.",
+        "Alert relevant authorities to prepare for a potential emergency situation."
+      ],
+      "required_resources": [
+        "Communication equipment",
+        "Emergency medical services",
+        "Law enforcement",
+        "Fire department (potential)",
+        "Search and rescue (potential)"
+      ],
+      "confidence_score": 0.8,
+      "reasoning": "The message 'helpppp' indicates a high probability of an emergency situation requiring immediate attention. The lack of specific information necessitates immediate attempts to gather more details and prepare for a range of potential emergencies. Previous emotion analysis suggests a neutral primary emotion, but the intensity is medium, indicating potential distress. Given the limited information, it's crucial to act swiftly and cautiously."
+    },
+    "timestamp": "2025-04-01T05:21:46.597623"
+  }
+]

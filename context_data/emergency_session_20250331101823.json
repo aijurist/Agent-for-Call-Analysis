@@ -1,0 +1,108 @@
+[
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "panic",
+      "intensity": "extreme",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"help im in danger!!!!\" indicates a high level of fear and panic. The use of \"help\" and \"danger\" explicitly points to fear, while the multiple exclamation marks suggest extreme distress and panic."
+    },
+    "timestamp": "2025-03-31T10:19:35.366648"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "undetermined",
+      "severity_level": "high",
+      "key_details": [
+        "Individual reports being in danger",
+        "Emotion analysis indicates extreme fear and panic"
+      ],
+      "required_actions": [
+        "Attempt to establish direct communication with the individual to ascertain their location and the nature of the threat.",
+        "Dispatch law enforcement to the last known location of the individual, if available.",
+        "Alert relevant emergency services based on further information gathered (e.g., medical, fire).",
+        "Continuously monitor for additional messages or updates from the individual."
+      ],
+      "required_resources": [
+        "Communication equipment",
+        "Law enforcement personnel",
+        "Emergency medical services (standby)",
+        "GPS tracking if available"
+      ],
+      "confidence_score": 0.85,
+      "reasoning": "The message indicates a person is in immediate danger, triggering a high severity level. However, the lack of specific information necessitates immediate action to gather more details and dispatch law enforcement as a precaution. The emotion analysis supports the urgency of the situation."
+    },
+    "timestamp": "2025-03-31T10:19:38.823977"
+  },
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "urgent",
+      "intensity": "high",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"help im in danger!!!!\" indicates a high level of fear due to the explicit statement of being in danger and the use of \"help\" indicating a need for immediate assistance. The multiple exclamation points further emphasize the urgency and intensity of the fear."
+    },
+    "timestamp": "2025-03-31T10:20:04.787780"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "undetermined",
+      "severity_level": "high",
+      "key_details": [
+        "Individual is in danger",
+        "Requesting help"
+      ],
+      "required_actions": [
+        "Attempt to establish communication with the individual to determine the nature of the danger and their location.",
+        "Dispatch emergency services to the last known location of the individual, if available, or attempt to ascertain it."
+      ],
+      "required_resources": [
+        "Emergency services (police, fire, ambulance)",
+        "Communication equipment",
+        "GPS location tracking if available"
+      ],
+      "confidence_score": 0.85,
+      "reasoning": "The message indicates a person is in immediate danger and requires assistance. The lack of specific information necessitates immediate action to determine the nature and location of the emergency. High emotion intensity and urgency justify a high severity level. The category is 'undetermined' due to the lack of specific information."
+    },
+    "timestamp": "2025-03-31T10:20:06.794410"
+  },
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "urgent",
+      "intensity": "high",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"help im in danger!!!!\" indicates a high level of fear and urgency due to the explicit statement of being in danger and the use of multiple exclamation marks. The plea for \"help\" further supports this assessment."
+    },
+    "timestamp": "2025-03-31T11:19:28.262142"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "undetermined",
+      "severity_level": "high",
+      "key_details": [
+        "Individual reports being in danger",
+        "Expresses fear and urgency"
+      ],
+      "required_actions": [
+        "Attempt to establish communication with the individual to determine the nature of the danger.",
+        "Request location information from the individual if possible.",
+        "Alert local law enforcement to be prepared to respond."
+      ],
+      "required_resources": [
+        "Communication equipment",
+        "Law enforcement personnel",
+        "Emergency medical services (potential)"
+      ],
+      "confidence_score": 0.85,
+      "reasoning": "The message indicates a person is in immediate danger, which necessitates a high severity level. Due to the lack of specific information, the emergency category is 'undetermined'. Immediate actions are required to gather more information and prepare for a potential emergency response."
+    },
+    "timestamp": "2025-03-31T11:19:30.433069"
+  }
+]

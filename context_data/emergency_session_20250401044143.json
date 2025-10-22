@@ -1,0 +1,75 @@
+[
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "panic",
+      "intensity": "extreme",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"helppppp, im being attacked\" indicates extreme fear and panic. The repetition of 'help' emphasizes the urgency and intensity of the situation. The phrase 'being attacked' directly implies a dangerous and frightening situation."
+    },
+    "timestamp": "2025-04-01T04:42:12.749148"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "crime",
+      "severity_level": "high",
+      "key_details": [
+        "Individual is under attack",
+        "Request for help"
+      ],
+      "required_actions": [
+        "Dispatch law enforcement immediately to the location of the sender.",
+        "Attempt to establish direct communication with the sender to gather more information (location, nature of attack, description of attacker).",
+        "Alert medical services to standby in case of injuries."
+      ],
+      "required_resources": [
+        "Law enforcement officers",
+        "Emergency medical services",
+        "Communication specialists"
+      ],
+      "confidence_score": 0.95,
+      "reasoning": "The message explicitly states \"im being attacked\", indicating an active crime. The repeated \"helppppp\" and the emotion analysis (extreme fear and panic) suggest a high level of severity and imminent danger to the individual. Immediate dispatch of law enforcement is crucial. Attempting communication is important to gather more details, but should not delay dispatch. Medical services should be ready in case of injuries."
+    },
+    "timestamp": "2025-04-01T04:42:15.278268"
+  },
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "panic",
+      "intensity": "high",
+      "confidence_score": 0.95,
+      "reasoning": "The caller explicitly states \"im scareddd\" indicating fear. The repetition of 'ee' in 'scareddd' and 'meee' and the phrase 'he is chasing meee' suggest a high level of fear close to panic. The situation described implies immediate danger, increasing the intensity."
+    },
+    "timestamp": "2025-04-01T04:42:52.342188"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "crime",
+      "severity_level": "high",
+      "key_details": [
+        "Individual is being chased",
+        "Subject is experiencing high levels of fear and panic"
+      ],
+      "required_actions": [
+        "Immediately dispatch law enforcement to the reported location (if available).",
+        "Attempt to establish direct communication with the individual to gather more information about their location and the identity of the person chasing them.",
+        "Advise the individual to run to a safe location if possible.",
+        "If location is known, alert nearby law enforcement units.",
+        "Prepare for potential escalation of the situation."
+      ],
+      "required_resources": [
+        "Law enforcement units",
+        "Emergency medical services (standby)",
+        "Communication equipment",
+        "GPS tracking if available"
+      ],
+      "confidence_score": 0.95,
+      "reasoning": "The message indicates a direct threat to the individual's safety, suggesting a potential assault or kidnapping. The high level of fear and panic detected further supports the assessment of a serious and urgent situation. The 'chasing' suggests an immediate and ongoing threat requiring immediate intervention."
+    },
+    "timestamp": "2025-04-01T04:42:54.450260"
+  }
+]

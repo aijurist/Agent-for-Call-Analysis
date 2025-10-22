@@ -1,0 +1,80 @@
+[
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "panic",
+      "intensity": "extreme",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"helppp\" is a clear indication of distress and fear. The repeated 'p' suggests a high level of panic and an urgent need for help.",
+      "lexicon_scores": null,
+      "audio_analysis": null,
+      "temporal_trend": null,
+      "cross_modal_result": null
+    },
+    "timestamp": "2025-04-01T05:25:15.347207"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "undetermined",
+      "severity_level": "high",
+      "key_details": [
+        "Distress signal: \"helppp\"",
+        "Extreme fear and panic detected."
+      ],
+      "required_actions": [
+        "Attempt to establish communication with the sender to ascertain the nature of the emergency.",
+        "Dispatch emergency services to the sender's last known location if communication cannot be established or if the situation sounds dire.",
+        "Alert relevant authorities (police, fire, ambulance) depending on further information obtained."
+      ],
+      "required_resources": [
+        "Emergency communication equipment",
+        "GPS location tracking",
+        "Police/Fire/Ambulance services"
+      ],
+      "confidence_score": 0.85,
+      "reasoning": "The message \"helppp\" indicates a potential emergency. The detected emotions of extreme fear and panic suggest a high level of severity. Due to the lack of specific information, the emergency category is undetermined, but immediate action is required to investigate the situation and provide assistance."
+    },
+    "timestamp": "2025-04-01T05:25:18.637266"
+  },
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "panic",
+      "intensity": "high",
+      "confidence_score": 0.95,
+      "reasoning": "The message \"im being chaseddddd!!!\" clearly indicates fear. The elongated 'ddddd' suggests heightened panic and distress.",
+      "lexicon_scores": null,
+      "audio_analysis": null,
+      "temporal_trend": null,
+      "cross_modal_result": null
+    },
+    "timestamp": "2025-04-01T05:25:34.142360"
+  },
+  {
+    "tool_name": "SituationAnalysisTool",
+    "data": {
+      "emergency_category": "crime",
+      "severity_level": "high",
+      "key_details": [
+        "Individual is being chased",
+        "High level of fear and panic"
+      ],
+      "required_actions": [
+        "Dispatch law enforcement to the reported location",
+        "Attempt to establish communication with the individual to gather more information (location, description of pursuer(s), etc.)",
+        "Assess the need for medical assistance based on further communication"
+      ],
+      "required_resources": [
+        "Law enforcement units",
+        "Communication equipment",
+        "Medical personnel (potential)"
+      ],
+      "confidence_score": 0.95,
+      "reasoning": "The message indicates a direct threat to the individual's safety (being chased) and the emotion analysis confirms a high degree of fear and panic. This suggests a potentially life-threatening situation requiring immediate law enforcement intervention."
+    },
+    "timestamp": "2025-04-01T05:25:35.917336"
+  }
+]

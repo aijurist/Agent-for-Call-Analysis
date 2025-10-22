@@ -1,0 +1,46 @@
+[
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": null,
+      "intensity": "high",
+      "confidence_score": 0.85,
+      "reasoning": "The message explicitly states 'I'm really scared,' indicating a high level of fear. The plea for help further emphasizes the distress. | Audio analysis: {'primary_emotion': <EmotionType.PANIC: 'panic'>, 'secondary_emotion': None, 'intensity': <EmotionIntensity.HIGH: 'high'>, 'confidence_score': 0.9, 'reasoning': 'High pitch and fast speech rate indicate panic.', 'analysis_timestamp': '2025-04-01T05:47:15.898984'}",
+      "lexicon_scores": null,
+      "audio_analysis": {
+        "primary_emotion": "panic",
+        "secondary_emotion": null,
+        "intensity": "high",
+        "confidence_score": 0.9,
+        "reasoning": "High pitch and fast speech rate indicate panic.",
+        "analysis_timestamp": "2025-04-01T05:47:15.898984"
+      },
+      "temporal_trend": null,
+      "cross_modal_result": null
+    },
+    "timestamp": "2025-04-01T05:47:17.169912"
+  },
+  {
+    "tool_name": "EmotionAnalysisTool",
+    "data": {
+      "primary_emotion": "fear",
+      "secondary_emotion": null,
+      "intensity": "high",
+      "confidence_score": 0.95,
+      "reasoning": "The message explicitly states 'I'm really scared' which indicates a high level of fear. The plea for help further supports this. | Audio analysis: {'primary_emotion': <EmotionType.PANIC: 'panic'>, 'secondary_emotion': None, 'intensity': <EmotionIntensity.HIGH: 'high'>, 'confidence_score': 0.9, 'reasoning': 'High pitch and fast speech rate indicate panic.', 'analysis_timestamp': '2025-04-01T05:47:30.040418'}",
+      "lexicon_scores": null,
+      "audio_analysis": {
+        "primary_emotion": "panic",
+        "secondary_emotion": null,
+        "intensity": "high",
+        "confidence_score": 0.9,
+        "reasoning": "High pitch and fast speech rate indicate panic.",
+        "analysis_timestamp": "2025-04-01T05:47:30.040418"
+      },
+      "temporal_trend": null,
+      "cross_modal_result": null
+    },
+    "timestamp": "2025-04-01T05:47:31.212278"
+  }
+]
